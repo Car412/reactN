@@ -16,7 +16,7 @@ export default function Detail({ route }) {
 
   useEffect(() => {
     axios
-      .get(`${baseURL}/v1/public/characters/${route.params.id}`, {
+      .get(`${baseURL}/v1/public/characters/${route.params.id}`,{
         params: {
           ts,
           apikey,

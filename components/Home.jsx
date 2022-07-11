@@ -29,7 +29,7 @@ export default function Home() {
     if (search) {
       setLoading(true);
       axios
-        .get(`${baseURL}/v1/public/characters`, {
+        .get(`${baseURL}/v1/public/characters`,{
           params: {
             ts,
             apikey,

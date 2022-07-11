@@ -13,6 +13,6 @@ const apiParams = {
   ts,
   apikey: publicKey,
   hash,
-  baseURL: 'https://gateway.marvel.com'
+  baseURL: 'https://gateway.marvel.com',
 };
 export default apiParams;

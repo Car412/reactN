@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 		  marginRight: 10
 	  },
 	  font: {
-		  fontWeight: 'bold'
+		  fontWeight:'bold'
 	  }
   });
 

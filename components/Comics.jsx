@@ -33,7 +33,7 @@ export default function Comics({ listComics }) {
     <View style={{ flex: 1 }}>
       {
         isLoading 
-          ? <ActivityIndicator size="large" color="#00bfff" /> 
+          ? <ActivityIndicator size="large" color="#00bfff"/> 
           : <FlatList
               contentContainerStyle={{alignItems: 'center'}}
               data={data}
